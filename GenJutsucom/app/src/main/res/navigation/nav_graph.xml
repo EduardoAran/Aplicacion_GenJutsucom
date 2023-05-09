@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.genjutsucom.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/AFragment"
+        android:name="com.example.genjutsucom.AFragment"
+        android:label="fragment_a"
+        tools:layout="@layout/fragment_a" >
+        <action
+            android:id="@+id/action_AFragment_to_catalogueFragment"
+            app:destination="@id/catalogueFragment" />
+        <action
+            android:id="@+id/action_AFragment_to_abecedarioFragment"
+            app:destination="@id/abecedarioFragment" />
+        <action
+            android:id="@+id/action_AFragment_to_animalesFragment"
+            app:destination="@id/animalesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="com.example.genjutsucom.BFragment"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.genjutsucom.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.genjutsucom.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/catalogueFragment"
+        android:name="com.example.genjutsucom.CatalogueFragment"
+        android:label="fragment_catalogue"
+        tools:layout="@layout/fragment_catalogue" />
+    <fragment
+        android:id="@+id/abecedarioFragment"
+        android:name="com.example.genjutsucom.AbecedarioFragment"
+        android:label="fragment_abecedario"
+        tools:layout="@layout/fragment_abecedario" >
+        <action
+            android:id="@+id/action_abecedarioFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animalesFragment"
+        android:name="com.example.genjutsucom.AnimalesFragment"
+        android:label="fragment_animales"
+        tools:layout="@layout/fragment_animales" >
+        <action
+            android:id="@+id/action_animalesFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.genjutsucom.infoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>

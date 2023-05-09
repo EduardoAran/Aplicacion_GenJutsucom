@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062015759785",
+    "project_id": "genjutsucom-18de4",
+    "storage_bucket": "genjutsucom-18de4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062015759785:android:010faf267e5714f91300b8",
+        "android_client_info": {
+          "package_name": "com.example.genjutsucom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062015759785-vmgqpkqa3gorq0otu3ar3qhv1ri9b81n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB37mobChSAxXvz0B2DGMP1iLlwiIs9tTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062015759785-vmgqpkqa3gorq0otu3ar3qhv1ri9b81n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
